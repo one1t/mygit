@@ -1,0 +1,14 @@
+测试SSH连接：
+ssh -T git@github.com
+初始化仓库：
+git init
+clone远程至本地：
+git clone git@github.com:one1t/mygit.git
+添加文件：
+git add cachefile/
+提交文件：
+git commit -m "注释"
+推送文件：
+git push -u origin master
+拉取文件：
+git pull origin master
